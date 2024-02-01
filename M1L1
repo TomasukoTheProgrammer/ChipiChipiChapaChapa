@@ -1,0 +1,14 @@
+meme_dictionary = {
+            "CRINGE": "Qualcosa di eccezionalmente strano o imbarazzante",
+            "LOL": "Una risposta comune a qualcosa di divertente",
+            "SHEESH": "leggera disapprovazione",
+            "YAAHh": "Grande Approvazione",
+            "JK": "Scherzo"
+            }
+            
+parola = input("Scrivi una parola che non capisci (usa solo lettere maiuscole!): ")
+
+if parola in meme_dictionary.keys():
+    print(meme_dictionary[parola])
+else:
+    print("Termine irriconoscibile, boomer")
